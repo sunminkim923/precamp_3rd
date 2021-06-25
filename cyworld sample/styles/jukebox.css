@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper_top {
+    width: 464px;
+    height: 203px;
+    /* background-color: yellow; */
+    margin-top: 20px;
+}
+
+.wrapper_top_album {
+    width: 464px;
+    height: 178px;
+    /* background-color: purple; */
+}
+
+.wrapper_top_text {
+    width: 464px;
+    height: 25px;
+    /* background-color: hotpink; */
+    border-bottom: 1px solid black;
+}
+.bgm {
+    font-size: 13px;
+    color: #55b2D4;
+    font-weight: 700;
+}
+.today {
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.wrapper_top_album{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.album1 {
+    width: 120px;
+    height: 178px;
+    /* background-color: blue; */
+}
+
+.album1_img {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+.album1_text {
+    width: 120px;
+    height: 28px;
+    margin-top: 10px;
+    /* background-color: brown; */
+    text-align: center;
+}
+
+.album1_text_top {
+    font-size: 11px;
+    font-weight: bold;
+    color: #0F465E;
+}
+
+.album1_text_bottom {
+    font-size: 10px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.album2 {
+    width: 120px;
+    height: 178px;
+    /* background-color: coral; */
+}
+
+.album2_img {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+.album2_text {
+    width: 120px;
+    height: 28px;
+    margin-top: 10px;
+    text-align: center;
+    /* background-color: brown; */
+}
+
+.album2_text_top {
+    font-size: 11px;
+    font-weight: bold;
+    color: #0F465E;
+}
+
+.album2_text_bottom {
+    font-size: 10px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.album3{
+    width: 120px;
+    height: 178px;
+    /* background-color: darkgray; */
+}
+
+
+.album3_img {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    background-color: lightgray;
+
+}
+
+.album3_text {
+    width: 120px;
+    height: 28px;
+    margin-top: 10px;
+    text-align: center;
+    /* background-color: brown; */
+}
+
+.album3_text_top {
+    font-size: 11px;
+    font-weight: bold;
+    color: #0F465E;
+}
+
+.album3_text_bottom {
+    font-size: 10px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.wrapper_bottom {
+    width: 464px;
+    height: 146px;
+    /* background-color: green; */
+    margin-bottom: 29px;
+}
+
+.wrapper_bottom_text {
+    width: 464px;
+    height: 27px;
+    border-bottom: 1px solid black;
+}
+
+.wrapper_bottom_music {
+    width: 464px;
+    height: 119px;
+    /* background-color: blueviolet; */
+}
+
+.table {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+}
+
+.table_header {
+    /* width: 264px;
+    height: 20px; */
+    font-weight: bold;
+    color: #999999;
+    border-bottom: 1px solid black;
+}
+
+.table_name {
+    color: #0F465E;
+    
+}
